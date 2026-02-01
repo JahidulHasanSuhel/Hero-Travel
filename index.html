@@ -1,277 +1,392 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hero Travel</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/Group40071(2).png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/Group40071(2).png"
+      type="image/x-icon"
+    />
 
     <!-- fontawesome  -->
-    <script src="https://kit.fontawesome.com/b6c6cec8d0.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/b6c6cec8d0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-
+  <body>
     <!-- header section -->
     <header class="container">
-        <nav>
-            <div class="nav-imgAndTitle">
-                <img src="images/Group40071(2).png" alt="">
-                <div class="title">
-                    <h2>Hero <span>Travel</span></h2>
-                </div>
-            </div>
-            <ul>
-                <li>Home</li>
-                <li>Packages</li>
-                <li>Testimonial</li>
-                <li>Blog</li>
-                <li>Contact</li>
-            </ul>
-            <div class="hamburger">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </nav>
+      <nav>
+        <div class="nav-imgAndTitle">
+          <img src="images/Group40071(2).png" alt="" />
+          <div class="title">
+            <h2>Hero <span>Travel</span></h2>
+          </div>
+        </div>
+        <ul>
+          <li>Home</li>
+          <li>Packages</li>
+          <li>Testimonial</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
     </header>
 
     <!-- main section -->
     <main class="container">
-        <div class="itemsCenter">
-            <div class="hero">
-                <h1 class="heroTitle">Explore Your Travel</h1>
-                <p class="heroText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus obcaecati
-                    quo iure pariatur veniam, dicta, id minus incidunt ut voluptates sed maxime dolore eum.</p>
+      <div class="itemsCenter">
+        <div class="hero">
+          <h1 class="heroTitle">Explore Your Travel</h1>
+          <p class="heroText">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            accusamus obcaecati quo iure pariatur veniam, dicta, id minus
+            incidunt ut voluptates sed maxime dolore eum.
+          </p>
 
-                <div class="formStyle">
-                    <form action="post">
-                        <input class="inputText" type="text" placeholder=" Where go">
-                        <select class="inputText" name="when">
-                            <option value="default"> when </option>
-                            <option value="In a week"> In a week </option>
-                            <option value="In a month"> In a month </option>
-                            <option value="In a year"> In a year </option>
-                        </select>
-                        <select class="inputText" name="type">
-                            <option value="default" selected>Select Type </option>
-                            <option value="Long tour">Long tour</option>
-                            <option value="Short tour">Short tour</option>
-                        </select>
+          <div class="formStyle">
+            <form action="post">
+              <input class="inputText" type="text" placeholder=" Where go" />
+              <select class="inputText" name="when">
+                <option value="default">when</option>
+                <option value="In a week">In a week</option>
+                <option value="In a month">In a month</option>
+                <option value="In a year">In a year</option>
+              </select>
+              <select class="inputText" name="type">
+                <option value="default" selected>Select Type</option>
+                <option value="Long tour">Long tour</option>
+                <option value="Short tour">Short tour</option>
+              </select>
 
-                        <button class="inputText btnStyle"><i class="fa-solid fa-magnifying-glass"></i> Find
-                            Now</button>
+              <button class="inputText btnStyle">
+                <i class="fa-solid fa-magnifying-glass"></i> Find Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
 
-                    </form>
-                </div>
-            </div>
+      <section class="popular">
+        <div>
+          <h1 class="popularSectionHeading">Our Popular Tours</h1>
+          <div class="styleChange">
+            <p id="p1">
+              Embark on a journey of discovery with Wanderlust Ventures, where
+              we bring you a selection of the most popular and enchanting
+              tours.Discover the wonders of our popular tours:
+            </p>
+            <ul class="ulClass">
+              <li class="list">
+                Set sail on a luxurious cruise through the azure waters of the
+                Mediterranean.This cruise is a perfect blend of relaxation and
+                exploration, promising an unforgettable voyage.
+              </li>
+              <li class="list">
+                Immerse yourself in the vibrant cultures of Southeast Asia with
+                our captivating tour.Experience the warmth of local hospitality
+                and witness the unique traditions that make each destination a
+                true gem.
+              </li>
+              <li class="list">
+                Chase the mesmerizing Northern Lights across the Arctic
+                landscapes of Scandinavia. Marvel at the natural phenomenon that
+                paints the night sky with vibrant hues of green and pink.
+              </li>
+            </ul>
+            <p id="p1">
+              Amet consectetur. Vulputate commodo felis molestie risus ornare
+              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+              Habitant adipiscing risus natoque aliquet. Id bibendum nunc
+              senectus semper tincidunt
+            </p>
+          </div>
+          <button class="pbtn">Read More</button>
+        </div>
+        <div class="tourImg">
+          <img src="images/Rectangle4.png" alt="" />
+        </div>
+      </section>
+
+      <!-- destinatio section  -->
+      <section class="destination">
+        <h1 class="destinationTitle">Choose Your Destination</h1>
+        <div>
+          <p class="desTitle">
+            . Whether you seek the sun-kissed beaches, historical wonders,
+            Lorem, ipsum. and discover the perfect getaway that speaks to your
+            heart.
+          </p>
+        </div>
+        <div class="allImg">
+          <div class="desImg img1">
+            <img src="images/Rectangle5.png" alt="" />
+            <p class="imgName">Maldives</p>
+          </div>
+          <div class="desImg img2">
+            <img src="images/Rectangle8.png" alt="" />
+            <p class="imgName">Indonesia</p>
+          </div>
+          <div class="desImg img3">
+            <img src="images/Rectangle6.png" alt="" />
+            <p class="imgName">Srilanka</p>
+          </div>
+          <div class="desImg img4">
+            <img src="images/Rectangle7.png" alt="" />
+            <p class="imgName">North America</p>
+          </div>
+          <div class="desImg img5">
+            <img src="images/Rectangle9.png" alt="" />
+            <p class="imgName">Kashmir</p>
+          </div>
+          <div class="desImg img6">
+            <img src="images/Rectangle11.png" alt="" />
+            <p class="imgName">Bangladesh</p>
+          </div>
+          <div class="desImg img7">
+            <img src="images/Rectangle10.png" alt="" />
+            <p class="imgName">Bandarban</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="whyChooseUs">
+        <div class="choose">
+          <h1 class="chooseUsCenter">Why Choose Us</h1>
+          <p>
+            We understand that the world is vast, and planning the perfect
+            getaway can be overwhelming. That's why choosing the right travel
+            agency is crucial to ensuring a seamless and unforgettable
+            experience.
+          </p>
         </div>
 
-        <section class="popular">
-            <div>
-                <h1 class="popularSectionHeading">Our Popular Tours</h1>
-                <div class="styleChange">
-                    <p id="p1">Embark on a journey of discovery with Wanderlust Ventures, where we bring you a selection
-                        of
-                        the most popular and enchanting tours.Discover the wonders of our popular tours: </p>
-                    <ul class="ulClass">
-                        <li class="list">Set sail on a luxurious cruise through the azure waters of the
-                            Mediterranean.This
-                            cruise is a perfect blend of relaxation and exploration, promising an unforgettable voyage.
-                        </li>
-                        <li class="list">Immerse yourself in the vibrant cultures of Southeast Asia with our captivating
-                            tour.Experience the warmth of local hospitality and witness the unique traditions that make
-                            each
-                            destination a true gem.</li>
-                        <li class="list">Chase the mesmerizing Northern Lights across the Arctic landscapes of
-                            Scandinavia.
-                            Marvel at the natural phenomenon that paints the night sky with vibrant hues of green and
-                            pink.
-                        </li>
-                    </ul>
-                    <p id="p1">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero
-                        commodo
-                        sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc
-                        senectus semper tincidunt</p>
-                </div>
-                <button class="pbtn">Read More</button>
+        <div class="twoFlex">
+          <div class="hotel">
+            <div class="st">
+              <img src="images/hotel1.png" alt="" />
+              <h1>Handpicked Hotels</h1>
             </div>
-            <div class="tourImg">
-                <img src="images/Rectangle4.png" alt="">
+            <p>
+              We have cultivated strong relationships with top-notch hotels,
+              airlines, and local guides worldwide. This not only grants us
+              access to exclusive deals but also ensures that you receive VIP
+              treatment and unique experiences at every destination.
+            </p>
+          </div>
+
+          <div class="service">
+            <div class="st">
+              <img src="images/map1.png" alt="" />
+              <h1>World Class Service</h1>
             </div>
-        </section>
+            <p>
+              With years of experience in the travel industry, we bring a wealth
+              of knowledge to the table. Our team has explored the world
+              extensively, allowing us to offer firsthand insights and
+              recommendations. From hidden gems to iconic landmarks, we know how
+              to make your trip extraordinary.
+            </p>
+          </div>
+        </div>
 
-        <section class="destination">
-            <h1 class="destinationTitle">Choose Your Destination</h1>
-            <div>
-                <p class="desTitle">. Whether you seek the sun-kissed beaches, historical wonders, Lorem, ipsum. and
-                    discover the perfect getaway that speaks to your heart.</p>
+        <div class="oneDiv">
+          <div class="st">
+            <img src="images/price-tag1.png" alt="" />
+            <h1>Best Price Guarantee</h1>
+          </div>
+          <p>
+            We understand the importance of value. Our commitment is to provide
+            cost-effective solutions without compromising on the quality of your
+            experience. Enjoy the best of both worlds exceptional adventures
+            without breaking the bank.
+          </p>
+        </div>
+      </section>
+
+      <!-- discount  -->
+      <section>
+        <div class="choose">
+          <h1 class="chooseUsCenter">Deals & Discounts</h1>
+          <p>
+            We believe that every journey should be not only memorable but also
+            affordable. dolor sit amet consectetur adipisicing elit. Mollitia.
+          </p>
+        </div>
+
+        <div class="tour-container discount">
+          <div class="tour-card">
+            <div class="tour-meta">
+              <span class="sp"
+                ><img src="images/Frame(2).png" alt="" /> 7 Day / 6 Night
+              </span>
+              <span class="sp"
+                ><img src="images/Frame.png" alt="" /> Max: 10
+              </span>
+              <span class="sp"
+                ><img src="images/Frame(1).png" alt="" /> Malaysia</span
+              >
             </div>
-            <div class="allImg">
-                <div class="desImg img1">
-                    <img src="images/Rectangle5.png" alt="">
-                    <p class="imgName">Maldives</p>
-                </div>
-                <div class="desImg img2">
-                    <img src="images/Rectangle8.png" alt="">
-                    <p class="imgName">Indonesia</p>
-                </div>
-                <div class="desImg img3">
-                    <img src="images/Rectangle6.png" alt="">
-                    <p class="imgName">Srilanka</p>
-                </div>
-                <div class="desImg img4">
-                    <img src="images/Rectangle7.png" alt="">
-                    <p class="imgName">North America</p>
-                </div>
-                <div class="desImg img5">
-                    <img src="images/Rectangle9.png" alt="">
-                    <p class="imgName">Kashmir</p>
-                </div>
-                <div class="desImg img6">
-                    <img src="images/Rectangle11.png" alt="">
-                    <p class="imgName">Bangladesh</p>
-                </div>
-                <div class="desImg img7">
-                    <img src="images/Rectangle10.png" alt="">
-                    <p class="imgName">Bandarban</p>
-                </div>
+            <h2>Tour To Santorini</h2>
+            <p class="p">
+              Dreaming of azure waters, breathtaking sunsets, and the charm of
+              Santorini? Look no further! Our exclusive Santorini Tour is one of
+              the best deals you'll find.
+            </p>
+            <h3 class="price">Price: $1300-$1500</h3>
+            <button class="book-btn">Book Now</button>
+          </div>
+        </div>
+
+        <div class="tour-container-two discount">
+          <div class="tour-card-two">
+            <div class="tour-meta">
+              <span class="sp"
+                ><img src="images/Frame(2).png" alt="" /> 7 Day / 6 Night
+              </span>
+              <span class="sp"
+                ><img src="images/Frame.png" alt="" /> Max: 10
+              </span>
+              <span class="sp"
+                ><img src="images/Frame(1).png" alt="" /> Malaysia</span
+              >
             </div>
-        </section>
+            <h2>Tour To Santorini</h2>
+            <p class="p">
+              Dreaming of azure waters, breathtaking sunsets, and the charm of
+              Santorini? Look no further! Our exclusive Santorini Tour is one of
+              the best deals you'll find.
+            </p>
+            <h3 class="price">Price: $1300-$1500</h3>
+            <button class="book-btn">Book Now</button>
+          </div>
+        </div>
 
-        <section class="whyChooseUs">
-            <div class="choose">
-                <h1 class="chooseUsCenter">Why Choose Us</h1>
-                <p>We understand that the world is vast, and planning the perfect getaway can be overwhelming.
-                    That's why choosing the right travel agency is crucial to ensuring a seamless and unforgettable
-                    experience.</p>
+        <div class="tour-container discount">
+          <div class="tour-card">
+            <div class="tour-meta">
+              <span class="sp"
+                ><img src="images/Frame(2).png" alt="" /> 7 Day / 6 Night
+              </span>
+              <span class="sp"
+                ><img src="images/Frame.png" alt="" /> Max: 10
+              </span>
+              <span class="sp"
+                ><img src="images/Frame(1).png" alt="" /> Malaysia</span
+              >
             </div>
+            <h2>Tour To Santorini</h2>
+            <p class="p">
+              Dreaming of azure waters, breathtaking sunsets, and the charm of
+              Santorini? Look no further! Our exclusive Santorini Tour is one of
+              the best deals you'll find.
+            </p>
+            <h3 class="price">Price: $1300-$1500</h3>
+            <button class="book-btn">Book Now</button>
+          </div>
+        </div>
 
-            <div class="twoFlex">
-                <div class="hotel">
-                    <div class="st">
-                        <img src="images/hotel1.png" alt="">
-                        <h1>Handpicked Hotels</h1>
-                    </div>
-                    <p>We have cultivated strong relationships with top-notch hotels, airlines, and local guides
-                        worldwide. This not only grants us access to exclusive deals but also ensures that you receive
-                        VIP treatment and unique experiences at every destination.</p>
-                </div>
+        <div class="tour-btn">
+          <button id="tour-btn">See All Packages</button>
+        </div>
+      </section>
 
-                <div class="service">
-                    <div class="st">
-                        <img src="images/map1.png" alt="">
-                        <h1>World Class Service</h1>
-                    </div>
-                    <p>With years of experience in the travel industry, we bring a wealth of knowledge to the table. Our
-                        team has explored the world extensively, allowing us to offer firsthand insights and
-                        recommendations. From hidden gems to iconic landmarks, we know how to make your trip
-                        extraordinary.</p>
-                </div>
+      <section class="tour">
+        <div class="newDiv">
+          <div>
+            <h1 class="tourSectionHeading">
+              A Simple Perfect Place To Get Lost
+            </h1>
+            <div class="tourChange">
+              <p id="t1">
+                In the quiet embrace of the mountains, the world fades away, and
+                a serene stillness takes over. Getting lost in these majestic
+                landscapes is not a mere wander, but a deliberate escape into
+                nature's sanctuary.
+              </p>
+              <ul class="ulClass">
+                <li class="lostList">
+                  Reach new heights and witness panoramic vistas that steal your
+                  breath away.
+                </li>
+                <li class="lostList">
+                  Stumble upon cascading waterfalls tucked away in secret
+                  corners of the mountains.
+                </li>
+              </ul>
             </div>
+            <button class="pbtn">See More</button>
+          </div>
+        </div>
+        <div class="newDiv">
+          <div class="tourvideo">
+            <video src="videos/video.mp4" controls autoplay></video>
+            <p class="tourvideoText">Watch Our Mountain in Bangladesh</p>
+          </div>
+        </div>
+      </section>
 
-            <div class="oneDiv">
-                <div class="st">
-                    <img src="images/price-tag1.png" alt="">
-                    <h1>Best Price Guarantee</h1>
-                </div>
-                <p>We understand the importance of value. Our commitment is to provide cost-effective solutions without
-                    compromising on the quality of your experience. Enjoy the best of both worlds exceptional adventures
-                    without breaking the bank.</p>
-            </div>
-        </section>
+      <section class="news">
+        <div class="paper common">
+          <h2>Newsletter</h2>
+          <p>
+            Get your daily dose of travel news and tips. Sign <br />
+            up today!
+          </p>
 
-        <!-- discount  -->
-        <section>
-            <div class="choose">
-                <h1 class="chooseUsCenter">Deals & Discounts</h1>
-                <p>We believe that every journey should be not only memorable but also affordable. dolor sit amet
-                    consectetur adipisicing elit. Mollitia.</p>
-            </div>
+          <div class="search">
+            <input class="ibtn" type="text" placeholder="Enter your name" />
+            <input class="ibtn" type="text" placeholder="Enter your Email" />
+          </div>
+          <div class="subs">
+            <button>Subscribe</button>
+          </div>
+        </div>
 
-            <div class="tour-container discount">
-                <div class="tour-card">
-                    <div class="tour-meta">
-                        <span class="sp"><img src="images/Frame(2).png" alt=""> 7 Day / 6 Night </span>
-                        <span class="sp"><img src="images/Frame.png" alt=""> Max: 10 </span>
-                        <span class="sp"><img src="images/Frame(1).png" alt=""> Malaysia</span>
-                    </div>
-                    <h2>Tour To Santorini</h2>
-                    <p class="p">Dreaming of azure waters, breathtaking sunsets, and the charm of Santorini? Look no
-                        further! Our exclusive Santorini Tour is one of the best deals you'll find.</p>
-                    <h3 class="price">Price: $1300-$1500</h3>
-                    <button class="book-btn">Book Now</button>
-                </div>
-            </div>
-
-
-            <div class="tour-container-two discount">
-                <div class="tour-card-two">
-                    <div class="tour-meta">
-                        <span class="sp"><img src="images/Frame(2).png" alt=""> 7 Day / 6 Night </span>
-                        <span class="sp"><img src="images/Frame.png" alt=""> Max: 10 </span>
-                        <span class="sp"><img src="images/Frame(1).png" alt=""> Malaysia</span>
-                    </div>
-                    <h2>Tour To Santorini</h2>
-                    <p class="p">Dreaming of azure waters, breathtaking sunsets, and the charm of Santorini? Look no
-                        further! Our exclusive Santorini Tour is one of the best deals you'll find.</p>
-                    <h3 class="price">Price: $1300-$1500</h3>
-                    <button class="book-btn">Book Now</button>
-                </div>
-            </div>
-
-
-            <div class="tour-container discount">
-                <div class="tour-card">
-                    <div class="tour-meta">
-                        <span class="sp"><img src="images/Frame(2).png" alt=""> 7 Day / 6 Night </span>
-                        <span class="sp"><img src="images/Frame.png" alt=""> Max: 10 </span>
-                        <span class="sp"><img src="images/Frame(1).png" alt=""> Malaysia</span>
-                    </div>
-                    <h2>Tour To Santorini</h2>
-                    <p class="p">Dreaming of azure waters, breathtaking sunsets, and the charm of Santorini? Look no
-                        further! Our exclusive Santorini Tour is one of the best deals you'll find.</p>
-                    <h3 class="price">Price: $1300-$1500</h3>
-                    <button class="book-btn">Book Now</button>
-                </div>
-            </div>
-
-            <div class="tour-btn">
-                <button id="tour-btn"> See All Packages</button>
-            </div>
-        </section>
-
-
-        <section class="tour">
-            <div class="newDiv">
-                <div>
-                    <h1 class="tourSectionHeading">A Simple Perfect Place To Get Lost</h1>
-                    <div class="tourChange">
-                        <p id="t1">In the quiet embrace of the mountains, the world fades away, and a serene stillness
-                            takes over. Getting lost in these majestic landscapes is not a mere wander, but a deliberate
-                            escape into nature's sanctuary.</p>
-                        <ul class="ulClass">
-                            <li class="lostList">Reach new heights and witness panoramic vistas that steal your breath
-                                away.
-                            </li>
-                            <li class="lostList">Stumble upon cascading waterfalls tucked away in secret corners of the
-                                mountains.</li>
-                        </ul>
-                    </div>
-                    <button class="pbtn">See More</button>
-                </div>
-            </div>
-            <div class="newDiv">
-                <div class="tourvideo ">
-                    <video src="videos/video.mp4" controls autoplay></video>
-                    <p class="tourvideoText">Watch Our Mountain in Bangladesh</p>
-                </div>
-            </div>
-        </section>
-
-
+        <div class="island">
+          <img src="images/Rectangle8(1).png" alt="" />
+          <div class="saveMoney">
+            <p>travel.com</p>
+            <h4>Save up to 70%</h4>
+          </div>
+        </div>
+      </section>
     </main>
 
-</body>
+    <footer class="foot">
+      <div class="footers">
+        <div class="footerImg">
+          <img src="images/Group40071(2).png" alt="" />
+          <div class="footerTitle">
+            <h2>Hero <span>Travel</span></h2>
+          </div>
+        </div>
 
+        <div class="all">
+          <p class="lastSec">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dolor
+            laudantium veniam consectetur sit, libero cupiditate eveniet,
+            corrupti error qui maxime .
+          </p>
+          <div class="icn">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+
+          <div class="right">
+            <p>&copy 2026. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
